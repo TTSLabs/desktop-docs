@@ -39,7 +39,7 @@ Same with **cheer** TTS:
 
 Due to limitations of the Streamlabs API, we cannot read these settings from Streamlabs directly. We can only catch them at the moment they are updated. If you change a setting while the app is closed, then you re-open the app, the setting won't be changed.
 
-To make sure the settings all match, you can do the following when the app is open:
+To make sure the settings all match, you can do the following while the app is open:
 - Toggle mute/unmute once.
 - Toggle play/pause once.
 - Change any Streamlabs alert setting and press save.
