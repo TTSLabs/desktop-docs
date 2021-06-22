@@ -7,6 +7,8 @@ When Streamlabs integration is enabled, three things happen:
 
 ---
 
+# Features
+
 They play/pause, mute/unmute, and skip alert buttons all work:
 
 ![image](https://user-images.githubusercontent.com/86311854/122953370-aa1dff80-d34c-11eb-8670-e4ad84fd52d7.png)
@@ -30,3 +32,16 @@ You can enable/disable **donation** TTS. (Note: You might want to set this volum
 Same with **cheer** TTS:
 
 ![image](https://user-images.githubusercontent.com/86311854/122955714-54e2ed80-d34e-11eb-8543-e104fa4e2b45.png)
+
+---
+
+# Quirks
+
+Due to limitations of the Streamlabs API, we cannot read these settings from Streamlabs directly. We can only catch them at the moment they are updated. If you change a setting while the app is closed, then you re-open the app, the setting won't be changed.
+
+To make sure the settings all match, you can do the following when the app is open:
+- Toggle mute/unmute once.
+- Toggle play/pause once.
+- Change any Streamlabs alert setting and press save.
+
+This will be fixed in a future release. Streamlabs is currently working with us on a solution.
