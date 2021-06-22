@@ -3,7 +3,7 @@
 When Streamlabs integration is enabled, three things happen:
 1. Streamlabs media controls (like play/pause) work.
 2. Some settings are read directly from Streamlabs.
-3. TTS is synced up to on-screen alerts. TTS won't play until an alert appears on screen, and it will automatically apply all the filters that Streamlabs normally would. 
+3. TTS is synced with on-screen alerts. TTS won't play until an alert appears on screen, and it will automatically apply all the donation filters that Streamlabs normally would. 
 
 ---
 
