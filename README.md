@@ -2,8 +2,8 @@
 Documentation for TTSLabs desktop app.
 
 # StreamElements sync
-See: ./StreamElementsSync.md
+See: https://github.com/TTSLabs/desktop-docs/blob/main/StreamElementsSync.md
 
 # Streamlabs sync
-See: ./StreamlabsSync.md
+See: https://github.com/TTSLabs/desktop-docs/blob/main/StreamlabsSync.md
 
