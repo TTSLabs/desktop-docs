@@ -9,19 +9,19 @@ When Streamlabs integration is enabled, three things happen:
 
 # Features
 
-They play/pause, mute/unmute, and skip alert buttons all work:
+You can play/pause, mute/unmute, and skip alert:
 
 ![image](https://user-images.githubusercontent.com/86311854/122953370-aa1dff80-d34c-11eb-8670-e4ad84fd52d7.png)
 
-The replay button works:
+You can replay an alert:
 
 ![image](https://user-images.githubusercontent.com/86311854/122953468-be61fc80-d34c-11eb-8350-829d4a76dbfe.png)
 
-Setting master volume works:
+You can set TTS volume:
 
 ![image](https://user-images.githubusercontent.com/86311854/122954040-1993ef00-d34d-11eb-80df-89e359e765c1.png)
 
-Reload Widgets works:
+You can reload the app:
 
 ![image](https://user-images.githubusercontent.com/86311854/122954081-21ec2a00-d34d-11eb-9dd1-7ea98735f0db.png)
 
