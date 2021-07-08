@@ -1,8 +1,9 @@
 # Instructions for TTSLabs 2.0.18 Streamlabs integration:
 
 When Streamlabs integration is enabled, three things happen:
-1. Streamlabs media controls (like play/pause) work.
-2. Some settings are read directly from Streamlabs.
+
+1. Media controls and some settings can be controlled directly from Streamlabs settings (by streamer/mods).
+1. Those controls and settings are disabled in the app.
 3. TTS is synced with on-screen alerts. TTS won't play until an alert appears on screen, and it will automatically apply all the donation filters that Streamlabs normally would. 
 
 ---
