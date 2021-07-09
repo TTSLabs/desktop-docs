@@ -34,6 +34,10 @@ Same with **cheer** TTS:
 
 ![image](https://user-images.githubusercontent.com/86311854/122955714-54e2ed80-d34e-11eb-8543-e104fa4e2b45.png)
 
+You can set profanity settings:
+
+![image](https://user-images.githubusercontent.com/86311854/125004231-18d6aa80-e027-11eb-9350-ac94c76a92e9.png)
+
 ---
 
 # Quirks
