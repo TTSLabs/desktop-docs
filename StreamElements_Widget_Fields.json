@@ -1,0 +1,241 @@
+{
+  "readme": {
+    "type": "text",
+    "label": "(Don't change this) INSTRUCTIONS:",
+    "value": "Welcome to the TTSLabs widget for remote-controlling the desktop app! If the desktop app has \"Sync with StreamElements\" enabled, it will automatically read these settings once in a while and write them into the app. It will also respond to play/pause/mute/unmute/replay/reload presses. To force it to re-sync, press reload overlays. To check if the streamer has StreamElements sync enabled, check their user page, ttslabs.ai/user/<twitch_username>. Note: If you want to keep alerts in sync with what's on screen, you should set alert settings to the same as in the alertbox. In order to maintain sync, the custom regex filters cannot skip alerts, they can only mute/replace words (to match the built-in tip filtering settings.) Please enter the custom regex as a json object of properly-escaped strings. Make sure to run the json through a json linter beforehand, and make sure every regex compiles properly, as errors will be silently ignored."
+  },
+  "master_volume": {
+    "type": "slider",
+    "label": "Master Volume",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "master_enabled": {
+    "type": "checkbox",
+    "label": "TTS Enabled",
+    "value": true
+  },
+  "clips_enabled": {
+    "type": "checkbox",
+    "label": "Allow users to use the clips feature in TTS.",
+    "value": true
+  },
+  "custom_regex_filters": {
+    "type": "text",
+    "label": "(Json list) Custom regex filters (mute/replace only.)",
+    "value": "[]"
+  },
+  "follow_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Follow enabled",
+    "value": true
+  },
+  "follow_volume": {
+    "type": "slider",
+    "label": "Alert: Follow volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "follow_duration": {
+    "type": "number",
+    "label": "Alert: Follow duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "subscriber_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Subscriber enabled",
+    "value": true
+  },
+  "subscriber_volume": {
+    "type": "slider",
+    "label": "Alert: Subscriber volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "subscriber_duration": {
+    "type": "number",
+    "label": "Alert: Subscriber duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "subscriber_min_amount": {
+    "type": "number",
+    "label": "Alert: Subscriber minimum amount",
+    "value": 0,
+    "min": 0
+  },
+  "tip_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Tip enabled",
+    "value": true
+  },
+  "tip_volume": {
+    "type": "slider",
+    "label": "Alert: Tip volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "tip_duration": {
+    "type": "number",
+    "label": "Alert: Tip duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "tip_min_amount": {
+    "type": "number",
+    "label": "Alert: Tip minimum amount",
+    "value": 0,
+    "min": 0
+  },
+  "cheer_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Cheer enabled",
+    "value": true
+  },
+  "cheer_volume": {
+    "type": "slider",
+    "label": "Alert: Cheer volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "cheer_duration": {
+    "type": "number",
+    "label": "Alert: Cheer duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "cheer_min_amount": {
+    "type": "number",
+    "label": "Alert: Cheer minimum amount",
+    "value": 0,
+    "min": 0
+  },
+  "host_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Host enabled",
+    "value": true
+  },
+  "host_volume": {
+    "type": "slider",
+    "label": "Alert: Host volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "host_duration": {
+    "type": "number",
+    "label": "Alert: Host duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "host_min_amount": {
+    "type": "number",
+    "label": "Alert: Host minimum amount",
+    "value": 0,
+    "min": 0
+  },
+  "raid_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Raid enabled",
+    "value": true
+  },
+  "raid_volume": {
+    "type": "slider",
+    "label": "Alert: Raid volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "raid_duration": {
+    "type": "number",
+    "label": "Alert: Raid duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "raid_min_amount": {
+    "type": "number",
+    "label": "Alert: Raid minimum amount",
+    "value": 0,
+    "min": 0
+  },
+  "merch_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Merch enabled",
+    "value": true
+  },
+  "merch_volume": {
+    "type": "slider",
+    "label": "Alert: Merch volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "merch_duration": {
+    "type": "number",
+    "label": "Alert: Merch duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "redemption_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Redemption enabled",
+    "value": true
+  },
+  "redemption_volume": {
+    "type": "slider",
+    "label": "Alert: Redemption volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "redemption_duration": {
+    "type": "number",
+    "label": "Alert: Redemption duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "purchase_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Purchase enabled",
+    "value": true
+  },
+  "purchase_volume": {
+    "type": "slider",
+    "label": "Alert: Purchase volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "purchase_duration": {
+    "type": "number",
+    "label": "Alert: Purchase duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "magic_key": {
+    "type": "text",
+    "label": "(Don't change this) Identification key",
+    "value": "ttslabs_widget_identifier"
+  },
+  "widget_version": {
+    "type": "text",
+    "label": "(Don't change this) Widget version to maintain desktop app compatibility.",
+    "value": "2.0.16"
+  }
+}
