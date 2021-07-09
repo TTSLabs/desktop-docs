@@ -76,4 +76,6 @@ Hit "Save" in the top-right.
 
 Now if the app has "StreamElements sync" enabled, all settings will automatically get synced from the widget.
 
+NOTE: After updating settings, hit "Reload Overlays" to make sure they're applied.
+
 NOTE: Make sure you only have one copy of this overlay/widget installed, as any duplicate copies will get ignored.
