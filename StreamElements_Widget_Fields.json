@@ -71,6 +71,50 @@
     "value": 0,
     "min": 0
   },
+  "subscribers_gift_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Subscriber Gift enabled",
+    "value": true
+  },
+  "subscribers_gift_volume": {
+    "type": "slider",
+    "label": "Alert: Subscriber Gift volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "subscribers_gift_duration": {
+    "type": "number",
+    "label": "Alert: Subscriber Gift duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "subscribers_bulk_gift_enabled": {
+    "type": "checkbox",
+    "label": "Alert: Community Gifts enabled",
+    "value": true
+  },
+  "subscribers_bulk_gift_volume": {
+    "type": "slider",
+    "label": "Alert: Community Gifts volume (%)",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "subscribers_bulk_gift_duration": {
+    "type": "number",
+    "label": "Alert: Community Gifts duration (seconds)",
+    "value": 30,
+    "min": 0
+  },
+  "subscribers_bulk_gift_min_amount": {
+    "type": "number",
+    "label": "Alert: Community Gifts minimum amount",
+    "value": 0,
+    "min": 0
+  },
   "tip_enabled": {
     "type": "checkbox",
     "label": "Alert: Tip enabled",
@@ -236,6 +280,6 @@
   "widget_version": {
     "type": "text",
     "label": "(Don't change this) Widget version to maintain desktop app compatibility.",
-    "value": "2.0.16"
+    "value": "2.0.21"
   }
 }
